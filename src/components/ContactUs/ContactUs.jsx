@@ -6,7 +6,7 @@ const ContactUs = () => {
             <div className='text-center text-light'>
                 <h1>¿Queres comunicarte con nosotros?</h1>
                 <p className='w-75 mx-auto'>
-                    Llamanos o escribinos, y te atudaremos a resolver cualquier inquietud.
+                    Llamanos o escribinos, y te ayudaremos a resolver cualquier inquietud.
                 </p>
                 <button className='btn btn-primary'>Comunicate con nosotros..</button>
             </div>
