@@ -2,7 +2,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg px-2">
+        <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     <img src="Logo.png" alt="HidraulicaMP" className="d-inline-block align-text-top" style={{maxHeight:'70px'}}/>

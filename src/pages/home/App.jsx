@@ -8,8 +8,10 @@ function App() {
     return (
         <>
             <Header/>
-            <Welcome/>
-            <WhoWeAre/>
+            <div className='px-2'>
+                <Welcome/>
+                <WhoWeAre/>
+            </div>
         </>
     )
 }
