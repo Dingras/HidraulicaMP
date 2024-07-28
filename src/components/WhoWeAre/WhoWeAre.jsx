@@ -6,11 +6,12 @@ const WhoWeAre = () => {
             <div className='text-center text-light'>
                 <h1>¿Quieres somos?</h1>
                 <p className='w-75 mx-auto'>
-                    Somos una empresa familiar que se dedica a la mecanica de maquinaria agricola,
-                    camiones, acoplados, motoniveladoras, palas mecanicas,
-                    servicios de hidraulica, torneria, corte, plegado y mucho mas...
+                    Somos una empresa familiar que se dedica a la mecánica con una trayectoria más de 20 años en el mercado.
+                    Una empresa dedicada a proporcionar soluciones de maquinaria agricola, camiones, acoplados, motoniveladoras,
+                    palas mecánicas, servicios y venta de hidráulica, tornería, corte de plasma con pantógrafo CNC, plegado, y mucho más.
+                    Soluciones de alta calidad para una variedad de industrias
                 </p>
-                <button className='btn btn-primary'>Conoce mas ...</button>
+                <a href='/nosotros' className='btn btn-primary'>Conoce mas ...</a>
             </div>
         </div>
     )

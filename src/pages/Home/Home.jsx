@@ -1,4 +1,4 @@
-import './App.css'
+import './Home.css'
 import Header from '../../components/Header/Header'
 import WhoWeAre from '../../components/WhoWeAre/WhoWeAre'
 import Welcome from '../../components/Welcome/Welcome'
@@ -6,7 +6,7 @@ import Footer from '../../components/Footer/Footer'
 import Partners from '../../components/Partners/Partners'
 import ContactUs from '../../components/ContactUs/ContactUs'
 
-function App() {
+function Home() {
 
     return (
         <>
@@ -22,4 +22,4 @@ function App() {
     )
 }
 
-export default App
+export default Home

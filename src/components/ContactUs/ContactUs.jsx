@@ -8,7 +8,7 @@ const ContactUs = () => {
                 <p className='w-75 mx-auto'>
                     Llamanos o escribinos, y te ayudaremos a resolver cualquier inquietud.
                 </p>
-                <button className='btn btn-primary'>Comunicate con nosotros..</button>
+                <a href='/contactos' className='btn btn-primary'>Comunicate con nosotros..</a>
             </div>
         </div>
     )
