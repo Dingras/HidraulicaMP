@@ -4,7 +4,7 @@ const WhoWeAre = () => {
     return (
         <div className='py-4 w-100 bg-dark'>
             <div className='text-center text-light'>
-                <h1>¿Quieres somos?</h1>
+                <h1>¿Quienes somos?</h1>
                 <p className='w-75 mx-auto'>
                     Somos una empresa familiar que se dedica a la mecánica con una trayectoria más de 20 años en el mercado.
                     Una empresa dedicada a proporcionar soluciones de maquinaria agricola, camiones, acoplados, motoniveladoras,
