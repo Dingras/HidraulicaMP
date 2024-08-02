@@ -1,9 +1,10 @@
 import './Header.css'
+import dataRoutes from '../../services/Data/Routes.json' 
 
 const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg">
-            <div className="container-fluid">
+            <div className="container-fluid d-flex justify-content-between">
                 <a className="navbar-brand p-0 m-0" href="/">
                     <img src="Logo.png" alt="HidraulicaMP" className="d-inline-block align-text-top" style={{maxHeight:'70px'}}/>
                 </a>
@@ -14,16 +15,16 @@ const Header = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="/productos">Productos</a>
+                            <a className="nav-link" href={dataRoutes.products.link}>{dataRoutes.products.title}</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/servicios">Servicios</a>
+                            <a className="nav-link" href={dataRoutes.services.link}>{dataRoutes.services.title}</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/nosotros">Nosotros</a>
+                            <a className="nav-link" href={dataRoutes.us.link}>{dataRoutes.us.title}</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/contactos">Contacto</a>
+                            <a className="nav-link" href={dataRoutes.contacts.link}>{dataRoutes.contacts.title}</a>
                         </li>
                     </ul>
                 </div>

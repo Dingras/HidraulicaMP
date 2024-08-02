@@ -8,7 +8,7 @@ const Products = () => {
     const [data, setData] = useState([]);
     
     const fetchData = async () => {
-        const result = await fetch("https://sheet.best/api/sheets/fe0afca3-c498-4299-90bd-3f4c222b48b5")
+        const result = await fetch("https://sheet.best/api/sheets/750b7424-1a8a-4fc7-811c-48fa632fbd1a")
         const resultJSON = await result.json()
         setData(resultJSON)
     };

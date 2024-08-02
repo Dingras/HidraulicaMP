@@ -1,28 +1,19 @@
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
-import { useState, useEffect } from 'react'
-import {GET} from '../../services/js/httpr.js'
+import Service from '../../components/Service/Service.jsx'
+import dataServices from '../../services/Data/Services.json'
 
 const Services = () => {
-
-    const [data, setData] = useState([]);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            const result = await GET('/'); // Asegúrate de pasar el endpoint correcto
-            setData(result);
-        };
-        //fetchData();
-    }, []);
 
     return (
         <>
             <Header />
+            <h2 className='py-3 text-center'>Nuestros servicios</h2>
                 {
-                data.length > 0 ? (
-                    data.map((service, index) => (
-                        <></>
-                        //<Service key={index} name={service.name} />
+                dataServices.length > 0 ? (
+                    dataServices.map((service) => (
+                        
+                        <Service key={service.id} name={service.name} description={service.description} url_img={service.url_img}/>
                     ))
                 ) : (
                     <div className="alert alert-warning m-5" role="alert">
