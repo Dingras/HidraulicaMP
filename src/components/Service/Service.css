@@ -1,3 +1,11 @@
 .title-service{
     font-size: 3em;
 }
+
+.service-container{
+    border-radius: 0px;
+}
+
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
