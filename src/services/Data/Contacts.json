@@ -16,5 +16,11 @@
         "name":"Instagram",
         "url":"https://www.instagram.com/hidraulicamanuelpereyra",
         "icon":"bi-instagram"
+    },
+    {
+        "id":4,
+        "name":"Email",
+        "url":"mailto:hidraulicamp@gmail.com",
+        "icon":"bi-envelope-at-fill"
     }
 ]
