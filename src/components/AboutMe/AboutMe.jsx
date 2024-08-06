@@ -21,7 +21,7 @@ const AboutMe = () => {
                 </div>
             </div>
             <div className="card text-bg-dark mx-2 aboutme-container">
-                <img src="/Welcome.jpeg" className="card-img img-vid-container" alt="..."/>
+                <video src="/CorteCNC.mp4" className="card-img img-vid-container" autoPlay loop muted></video>
                 <div className="card-img-overlay d-flex justify-content-center align-items-center">
                     <h4 className="card-title aboutme-text text-center w-75">
                         Por mi trabajo, siempre tuve que enfrentarme a trabajos en hidraulica, y decidi abrir mi propio local no solo para ofrecer un servicio,
