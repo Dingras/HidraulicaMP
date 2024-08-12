@@ -11,8 +11,14 @@
     color: rgb(255, 158, 77);
     font-family: "Ubuntu Mono", monospace;
 }
+@media (max-width: 450px) {
+    .signature-container {
+        font-size: .9em;
+    }
+}
 
 .signature-link-button{
+    padding-left: .3em;
     text-decoration: none;
     color: rgb(241, 98, 43);
     font-weight: bold;
