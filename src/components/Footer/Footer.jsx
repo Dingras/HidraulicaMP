@@ -1,8 +1,10 @@
 import './Footer.css'
 import dataContact from '../../services/Data/Contacts.json'
+import Signature from '../Signature/Signature'
 
 const Footer = () => {
     return (
+        <>
         <div className='container text-center'>
             <div className='row py-4'>
                 <div className='col-12 col-md-4 text-center align-self-center'>
@@ -21,7 +23,7 @@ const Footer = () => {
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
+                        ></iframe>
                     <p>Av. Humaita y Juan Jose Hernandez</p>
                     <p>Benito Juárez</p>
                     <p>Buenos Aires, Argentina</p>
@@ -34,11 +36,11 @@ const Footer = () => {
                     <div className="btn-group" role="group" aria-label="Basic mixed styles example">
                         {dataContact.map(contact => (
                             <a
-                                key={contact.id}
-                                href={contact.url}
-                                target='_blank'
-                                rel="noopener noreferrer"
-                                className={`btn btn-lg btn-primary bi ${contact.icon}`}
+                            key={contact.id}
+                            href={contact.url}
+                            target='_blank'
+                            rel="noopener noreferrer"
+                            className={`btn btn-lg btn-primary bi ${contact.icon}`}
                             >
                             </a>
                         ))}
@@ -46,6 +48,8 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        <Signature/>
+        </>
     )
 }
 

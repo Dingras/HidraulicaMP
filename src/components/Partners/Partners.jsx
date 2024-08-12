@@ -7,8 +7,8 @@ const Partners = () => {
             <div className="row row-cols-auto">
                 {
                     dataPartners.partners.map((partner)=>(
-                        <div className="col mx-auto">
-                            <img className="partner-img" key={partner.id} src={partner.img_url} alt={partner.name}/>
+                        <div className="col mx-auto" key={partner.id}>
+                            <img className="partner-img" src={partner.img_url} alt={partner.name}/>
                         </div>
                         )
                     )
