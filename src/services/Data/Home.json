@@ -23,6 +23,11 @@
             "id": 3,
             "name":"Moro Hidraulica",
             "img_url":"Partners/MoroH.png"
+        },
+        {
+            "id": 4,
+            "name":"Fluid Parts",
+            "img_url":"Partners/FluidParts.png"
         }
     ],
     "contact_us":{
