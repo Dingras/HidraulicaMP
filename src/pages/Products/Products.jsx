@@ -12,7 +12,7 @@ const Products = () => {
     
     const fetchData = async () => {
         try {
-            const result = await fetch("https://sheet.best/api/sheets/750b7424-1a8a-4fc7-811c-48fa632fbd1a");
+            const result = await fetch(import.meta.env.VITE_API_URL);
             const resultJSON = await result.json();
             setData(resultJSON);
         } catch (error) {

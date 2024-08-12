@@ -1,0 +1,5 @@
+.partner-img{
+    max-height:100px;
+    object-fit: cover;
+    margin: 2em;
+}

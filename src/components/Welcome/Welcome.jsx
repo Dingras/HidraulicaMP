@@ -1,9 +1,10 @@
 import './Welcome.css'
+import dataHome from '../../services/Data/Home.json'
 
 const Welcome = () => {
     return (
         <div className="container-fluid p-0 m-0">
-            <img src="/Welcome.jpeg" alt="fondo" className="img-fluid w-100" style={{ maxHeight:'500px', objectFit: 'cover' }}/>
+            <img src={dataHome.welcome.img_url} alt={dataHome.welcome.img_title} className="img-fluid w-100 welcome-img"/>
         </div>
     )
 }

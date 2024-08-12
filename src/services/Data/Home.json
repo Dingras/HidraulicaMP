@@ -1,0 +1,33 @@
+{
+    "welcome":  {
+        "img_url":"Home/Welcome.jpeg",
+        "img_title":"Local Hidraulica MP"
+    },
+    "who_we_are":{
+        "title": "¿Quiénes somos?",
+        "description": "Somos una empresa familiar con más de 20 años de experiencia en el ámbito de la mecánica, reconocida en Benito Juárez por nuestra dedicación y excelencia. Nos especializamos en ofrecer soluciones para todo tipo de maquinaria, incluyendo agrícola, industrial, de construcción, y más. Además, brindamos servicios y ventas de sistemas hidráulicos, tornería, corte de plasma con pantógrafo CNC, plegado, y mucho más. Nos enorgullece proporcionar soluciones de alta calidad para una amplia variedad de industrias, asegurando siempre la satisfacción de nuestros clientes.",
+        "button_text": "Conoce más"
+    },
+    "partners":[
+        {
+            "id":1,
+            "name":"Castrol",
+            "img_url":"Partners/Castrol.png"
+        },
+        {
+            "id": 2,
+            "name":"Hidraulica San Francisco",
+            "img_url":"Partners/HSF.png"
+        },
+        {
+            "id": 3,
+            "name":"Moro Hidraulica",
+            "img_url":"Partners/MoroH.png"
+        }
+    ],
+    "contact_us":{
+        "title": "¿Quieres comunicarte con nosotros?",
+        "description": "Llámanos o escríbenos, y te ayudaremos a resolver cualquier inquietud.",
+        "button_text": "Comunícate con nosotros"
+    }
+}

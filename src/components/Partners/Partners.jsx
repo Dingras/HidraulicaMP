@@ -1,15 +1,20 @@
 import './Partners.css'
+import dataPartners from '../../services/Data/Home.json'
 
 const Partners = () => {
     return (
         <div className="container text-center py-4">
             <div className="row row-cols-auto">
-                <div className="col mx-auto"><img style={{ maxHeight:'100px', objectFit: 'cover' }} src="/Castrol.png" alt="Castrol"/></div>
-                <div className="col mx-auto"><img style={{ maxHeight:'100px', objectFit: 'cover' }} src="/HSF.png" alt="Hidraulica San Francisco" /></div>
-                <div className="col mx-auto"><img style={{ maxHeight:'100px', objectFit: 'cover' }} src="/MoroH.png" alt="Moro Hidraulica" /></div>
+                {
+                    dataPartners.partners.map((partner)=>(
+                        <div className="col mx-auto">
+                            <img className="partner-img" key={partner.id} src={partner.img_url} alt={partner.name}/>
+                        </div>
+                        )
+                    )
+                }
             </div>
         </div>
-
     )
 }
 
