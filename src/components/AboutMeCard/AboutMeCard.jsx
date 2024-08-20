@@ -1,3 +1,4 @@
+import './AboutMeCard.css'
 
 const AboutMeCard = (props) => {
 
