@@ -1,29 +1,28 @@
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
-import Product from '../../components/Product/Product'
+import Category from '../../components/Category/Category'
 import HydraulicPistonLoader from '../../components/HydraulicPistonLoader/HydraulicPistonLoader';
 import { useState, useEffect } from 'react'
+import { GetCategories } from '../../services/js/products';
 
-const Products = () => {
+const Categories = () => {
 
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)
 
-    
-    const fetchData = async () => {
+    const fetchApiData = async () =>{
         try {
-            const result = await fetch(import.meta.env.VITE_API_URL);
-            const resultJSON = await result.json();
-            setData(resultJSON);
+            const result = await GetCategories();
+            setData(result);
         } catch (error) {
             console.error("Error fetching data:", error);
-        } finally {
+        }finally{
             setLoading(false);
         }
-    };    
+    }
 
     useEffect(() => {
-        fetchData();
+        fetchApiData();
     }, []);
 
     return (
@@ -36,9 +35,9 @@ const Products = () => {
                 ) : data.length > 0 ? (
                     <div className="container">
                         <div className="row row-cols-auto justify-content-center">
-                            {data.map((product, index) => (
+                            {data.map((category, index) => (
                                 <div className="col" key={index}>
-                                    <Product name={product.name} brand={product.brand} description={product.description} image={product.image}/>
+                                    <Category id_category={category.id} name={category.name} image={category.image}/>
                                 </div>
                             ))}
                         </div>
@@ -54,4 +53,4 @@ const Products = () => {
     )
 }
 
-export default Products
+export default Categories

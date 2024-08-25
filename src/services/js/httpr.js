@@ -1,6 +1,6 @@
-const backendurl = "https://sheet.best/api/sheets/fe0afca3-c498-4299-90bd-3f4c222b48b5";
+const backendurl = import.meta.env.VITE_API_URL
 
-export default backendurl;
+export default backendurl
 
 export async function GET(url, request = null) {
     let uri = "";

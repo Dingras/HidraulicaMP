@@ -1,6 +1,7 @@
 {
     "welcome":  {
         "img_url":"Home/Welcome.jpeg",
+        "video_url":"Home/video.mp4",
         "img_title":"Local Hidraulica MP"
     },
     "who_we_are":{

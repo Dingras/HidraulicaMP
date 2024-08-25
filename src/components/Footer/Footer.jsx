@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className='my-4 col-12 col-md-4 text-center align-self-center'>
                     <iframe
                         className='map-container'
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d563.4689247889858!2d-59.822500802226514!3d-37.67106078264774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1722913347951!5m2!1ses-419!2sar"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1988.1903990699075!2d-59.82365021723692!3d-37.67089858743274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95917d00141da127%3A0x6d485488f1b1adb0!2sHidr%C3%A1ulica%20Manuel%20Pereyra!5e1!3m2!1ses-419!2sar!4v1724191124973!5m2!1ses-419!2sar"
                         width="350"
                         height="250"
                         style={{ border: 0 }}
