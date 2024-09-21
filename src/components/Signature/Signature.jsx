@@ -5,7 +5,7 @@ const Signature = () => {
         <div className='signature-container'>
             <p>
                 Esta página fue creada por:
-                <a className='signature-link-button' href='https://cosentinodev.vercel.app/' title='Visita el perfil de Cosentino Fernando' target='_blank'>
+                <a className='signature-link-button' rel="noopener noreferrer" href='https://cosentinodev.vercel.app/' title='Visita el perfil de Cosentino Fernando' target='_blank'>
                     Cosentino Fernando
                 </a>
             </p>

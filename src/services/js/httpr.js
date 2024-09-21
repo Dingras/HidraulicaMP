@@ -1,11 +1,13 @@
-const backendurl = "https://sheet.best/api/sheets/fe0afca3-c498-4299-90bd-3f4c222b48b5";
+const backendurl = import.meta.env.VITE_API_URL
 
-export default backendurl;
+export default backendurl
 
 export async function GET(url, request = null) {
-    let uri = "";
-    if (request) {
-        uri = '?' + new URLSearchParams(request).toString();
+    let uri = request ? '?' + new URLSearchParams(request).toString() : '';
+
+    if (!backendurl) {
+        console.error('Backend URL is not defined');
+        return { 'error': 'Backend URL is not defined' };
     }
 
     try {
@@ -13,19 +15,21 @@ export async function GET(url, request = null) {
             method: 'GET',
             mode: 'cors',
             headers: {
-                'Authorization': `Bearer ${localStorage.getItem('jwt')}` || '',
+                'Authorization': localStorage.getItem('jwt') ? `Bearer ${localStorage.getItem('jwt')}` : '',
                 'Content-Type': 'application/json'
             }
         });
 
         if (!response.ok) {
+            if (response.status === 404) {
+                throw new Error('Resource not found');
+            }
             throw new Error(`Error: ${response.status} ${response.statusText}`);
         }
 
-        const data = await response.json();
-        return data;
+        return await response.json();
     } catch (error) {
-        console.error('Fetch error:', error);
-        return { error: error.message };
+        //console.error("Fetch error:", error);
+        return { "error": error.message };
     }
 }

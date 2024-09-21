@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1 ,
+        "name" : "Bombas Hidraulicas",
+        "description" : "",
+        "img_url":"https://reymasa.com.ar/wp-content/uploads/2021/03/bombas-hidraulicas-engranajes.jpg"
+    },
+    {
+        "id": 2 ,
+        "name" : "Terminales",
+        "description" : "",
+        "img_url":""
+    },
+    {
+        "id": 3 ,
+        "name" : "Mangueras",
+        "description" : "",
+        "img_url":"https://www.bilpa.com.uy/wp-content/uploads/2021/03/Terminal-Recto-MF-UN-asiento-ORFS-x-Espiga-para-manguera-hidraulica.png"
+    }
+    ,
+    {
+        "id": 4 ,
+        "name" : "Tambores",
+        "description" : "",
+        "img_url":"https://everwear.com.ar/assets/archivos/recortadas/a_cf6d1ad5df.png"
+    }
+    ,
+    {
+        "id": 5 ,
+        "name" : "Comandos Hidraulicos",
+        "description" : "",
+        "img_url":"https://tiendadatri.com.ar/cdn/shop/files/tambor_29d29c1e-daac-4069-ba0a-aeb6018d25f2_800x.jpg?v=1708344420"
+    }
+    ,
+    {
+        "id": 6 ,
+        "name" : "",
+        "description" : "",
+        "img_url":"https://www.lptindustries.com.ar/3930-home_default/comando-monoblock-manual-80-lts-2P.jpg"
+    }
+    ,
+    {
+        "id": 7 ,
+        "name" : "Sellos Hidraulicos",
+        "description" : "",
+        "img_url":"https://www.lptindustries.com.ar/3890-thickbox_default/kit-sellos-cilindros-tel-89x1000.jpg"
+    }
+    ,
+    {
+        "id": 8 ,
+        "name" : "Cilindros Hidraulicos",
+        "description" : "",
+        "img_url":"https://www.lptindustries.com.ar/4199-thickbox_default/cilindro-hidraulico-tmx-149-3600.jpg"
+    }
+    ,
+    {
+        "id": 9 ,
+        "name" : "Valvulas",
+        "description" : "",
+        "img_url":"https://assets.rexroth.mam.bosch.tech/assets/api/fbaf6ae4-3212-4b57-ae75-bcc8946526c5/dc_ecommerce_thumbnail_jpg"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
