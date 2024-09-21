@@ -6,6 +6,7 @@ import About from './pages/About/About.jsx'
 import Categories from './pages/Categories/Categories.jsx'
 import Services from './pages/Services/Services.jsx'
 import Contacts from './pages/Contacts/Contacts.jsx'
+import Products from './pages/Products/Products.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,7 +14,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={ <Home /> }/>
-                <Route path='/productos' element={ <Categories/> }/>
+                <Route path='/categorias' element={ <Categories/> }/>
+                <Route path='/productos/:id' element={ <Products/> }/>
                 <Route path='/servicios' element={ <Services/> }/>
                 <Route path='/nosotros' element={ <About/> }/>
                 <Route path='/contactos' element={ <Contacts /> }/>

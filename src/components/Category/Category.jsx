@@ -10,7 +10,7 @@ const Category = (props) => {
                 <p>
                     {props.description}
                 </p> 
-                <a src={"categorys/"+props.image}className='btn btn-primary'>Ver</a>
+                <a href={"productos/" + props.id_category} className='btn btn-primary'>Ver</a>
             </div>
         </div>
     )

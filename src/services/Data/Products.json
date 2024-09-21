@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1 ,
+        "name" : "Bomba a pistones",
+        "description" : "Bomba a pistones A10VSO28DFR/31R-PKC62N00",
+        "img_url":"https://www.lptindustries.com.ar/562-thickbox_default/huade-bomba-a-pistones-a10vso28dfr-31r-pkc62n00.jpg",
+        "category": 1
+    },
+    {
+        "id": 2 ,
+        "name" : "Bomba Caproni",
+        "description" : "Bomba Caproni 19CC/38LPM D38FFFL",
+        "img_url":"https://www.lptindustries.com.ar/3001-thickbox_default/caproni-bomba-19cc-38lpm-d38fffl.jpg",
+        "category": 1
+    },
+    {
+        "id": 3 ,
+        "name" : "Tambores",
+        "description" : "",
+        "img_url":"https://everwear.com.ar/assets/archivos/recortadas/a_cf6d1ad5df.png",
+        "category": 2
+    },
+    {
+        "id": 4 ,
+        "name" : "",
+        "description" : "",
+        "img_url":"",
+        "category": 3
+    }
+]

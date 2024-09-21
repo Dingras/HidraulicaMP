@@ -1,7 +1,7 @@
 {
     "products":{
         "title": "Productos",
-        "link" : "/productos"
+        "link" : "/categorias"
     },
     "services":{
         "title": "Servicios",

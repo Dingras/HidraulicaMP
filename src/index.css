@@ -1,14 +1,16 @@
 body{
     font-family:"Black Ops One", system-ui;
     width: 100%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .btn-primary {
-    background-color: #0024f3; /* Cambia este color al que desees */
-    border-color: #0024f3; /* Asegúrate de cambiar también el borde si es necesario */
+    background-color: #0024f3; 
+    border-color: #0024f3; 
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #29498f; /* Color para el estado de hover, focus y active */
+    background-color: #29498f; 
     border-color: #29498f;
 }
