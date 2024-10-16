@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "url_img_vid":"AboutMe/Corte_1.png"
+    },
+    {
+        "id":2,
+        "url_img_vid":"AboutMe/Herreria_1.png"
+    },
+    {
+        "id":3,
+        "url_img_vid":"AboutMe/Hidraulica_1.png"
+    },
+    {
+        "id":4,
+        "url_img_vid":"AboutMe/Plegado_1.png"
+    },
+    {
+        "id":5,
+        "url_img_vid":"AboutMe/Soldadura_1.png"
+    }
+]

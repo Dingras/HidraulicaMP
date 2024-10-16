@@ -13,7 +13,8 @@
 }
 @media (max-width: 540px) {
     .img-vid-container{
-        max-Height: 300px;
+        max-Height: 400px;
+        object-fit: cover;
     }
     .aboutme-text{
         font-size: 1.2em;

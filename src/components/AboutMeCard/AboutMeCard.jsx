@@ -14,7 +14,7 @@ const AboutMeCard = (props) => {
                 <img src={props.url_img_vid} className="card-img img-vid-container" alt="..." />
             )}
             <div className={`card-img-overlay d-flex ${content_Left_Rigth} align-items-center`}>
-                <h4 className={`card-title aboutme-text ${text_Left_Rigth} w-50`}>
+                <h4 className={`m-3 card-title aboutme-text ${text_Left_Rigth} w-50`}>
                     {props.description}
                 </h4>
             </div>
