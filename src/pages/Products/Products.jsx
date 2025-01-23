@@ -60,7 +60,7 @@ const Products = () => {
                         <div className="row row-cols-auto justify-content-center">
                             {dataProductsFilter.map((product, index) => (
                                 <div className="col p-2" key={index}>
-                                    <Product name={product.name} description={product.description} img_url={product.url_img} />
+                                    <Product name={product.name} description={product.description} img_url={product.url_img} count={product.count} />
                                 </div>
                             ))}
                         </div>
