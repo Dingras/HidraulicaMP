@@ -5,6 +5,7 @@ import Welcome from '../../components/Welcome/Welcome'
 import Footer from '../../components/Footer/Footer'
 import Partners from '../../components/Partners/Partners'
 import ContactUs from '../../components/ContactUs/ContactUs'
+import Clients from '../../components/Clients/Clients'
 import SalesImg from '../../assets/sales.png'
 import Swal from 'sweetalert2'
 import { useEffect } from 'react'
@@ -53,8 +54,9 @@ function Home() {
                 <WhoWeAre/>
                 <Partners/>
                 <ContactUs/>
+                <Clients/>
+                <Footer/>
             </div>
-            <Footer/>
         </>
     )
 }

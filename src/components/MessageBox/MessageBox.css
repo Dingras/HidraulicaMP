@@ -1,0 +1,45 @@
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #1a1a1a;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image-container {
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.message-container {
+    flex-grow: 1;
+}
+
+.name {
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ddd;
+    margin: 0;
+}
+
+.message {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #ddd;
+    margin: 0;
+}

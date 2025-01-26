@@ -5,8 +5,8 @@ import Signature from '../Signature/Signature'
 const Footer = () => {
     return (
         <>
-        <div className='container text-center'>
-            <div className='row py-4'>
+        <div className='container text-center footer-container'>
+            <div className='row py-2'>
                 <div className='my-4 col-md-12 col-lg-4 text-center align-self-center'>
                     <iframe
                         className='map-container'
