@@ -1,0 +1,39 @@
+.card-category-v2 {
+    display: block;
+    width: 200px;
+    height: 250px;
+    border: 2px solid #0024F3;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 0 20px 0;
+    text-decoration: none;
+}
+
+.card-category-v2:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-category-v2 {
+    padding: 0;
+}
+
+.image-category-v2 img {
+    object-fit: cover;  
+    width: 100%;
+    height: 180px;
+}
+
+.name-category-v2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+}

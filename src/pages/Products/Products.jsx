@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header'
 import Footer from  '../../components/Footer/Footer'
 import HydraulicPistonLoader from '../../components/HydraulicPistonLoader/HydraulicPistonLoader'
 import Product from '../../components/Product/Product'
+import ProductV2 from '../../components/ProductV2/ProductV2'
 
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
@@ -60,7 +61,9 @@ const Products = () => {
                         <div className="row row-cols-auto justify-content-center">
                             {dataProductsFilter.map((product, index) => (
                                 <div className="col p-2" key={index}>
-                                    <Product name={product.name} description={product.description} img_url={product.url_img} count={product.count} />
+                                    {/* <Product name={product.name} description={product.description} img_url={product.url_img} count={product.count} /> */}
+                                    <ProductV2 name={product.name} description={product.description} img_url={product.url_img} count={product.count} />
+
                                 </div>
                             ))}
                         </div>

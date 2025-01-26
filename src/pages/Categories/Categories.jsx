@@ -1,6 +1,7 @@
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import Category from '../../components/Category/Category'
+import CategoryV2 from '../../components/CategoryV2/CategoryV2'
 import HydraulicPistonLoader from '../../components/HydraulicPistonLoader/HydraulicPistonLoader';
 import { useState, useEffect } from 'react'
 
@@ -40,7 +41,9 @@ const Categories = () => {
                         <div className="row row-cols-auto justify-content-center">
                             {data.map((category, index) => (
                                 <div className="col" key={index}>
-                                    <Category id_category={category.id} name={category.name} image={category.url_img}/>
+                                    {/* <Category id_category={category.id} name={category.name} image={category.url_img}/> */}
+                                    <CategoryV2 id_category={category.id} name={category.name} image={category.url_img}/>
+
                                 </div>
                             ))}
                         </div>
